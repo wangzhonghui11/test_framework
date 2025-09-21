@@ -1,0 +1,11 @@
+# 本地MySQL配置（需要先安装MySQL）
+test:
+  host: "localhost"
+  user: "wang"           # 或你创建的用户
+  password: "123"     # 安装时设置的密码
+  database: "test"
+  port: 3306
+
+## 或者使用SQLite（无需安装MySQL）
+#sqlite:
+#  database: "test.db"
